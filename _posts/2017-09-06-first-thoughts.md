@@ -1,65 +1,25 @@
 ---
 layout: post
-title:  "First Thoughts - Topics and their descriptions"
+title:  "Learning react native - baby steps"
 date:   2016-09-18 23:34:56 +0530
 ---
 
-<h1>Project 1</h1>
+<h1> React Native Setup Is Simple </h1>
+I had tried to dipping my feet in mobile development many years ago, lost count. It wasn't as simple as this! Within 15 minutes I had all my dependencies in place and had the my cell phone running hello world in no time through the Expo app. Which is more of a virtual machine than an emulator. I hear this very hello worl would work out of the box on apple devices as well.
 
-<h3>Topic - React Native App</h3>
+This is too easy!. I imagine things will get a bit hairy as I move forward - boxed-systems have great development experiences but very poor flexibility. As of today, I dont know if the React Native toolbox will be sufficient to address my vision for this project. I have put off investigating its feasability - as a conscious decision so that I do not get disheartened. I will handle problems as they come.
 
-I want to learn React Native to make a well functioning android app. The app will be a simple C"RU"D application and possibly interface with a backend like google sheets or a simple Heroku backend.
+I did doodle this projected screen sequence for the qualitative logging tool I am building. Very simple and bare-bare-bones..
 
-The objective of this exercise is to be able to create a lean application that can be used, added to my portfolio of work. I will pick up this project further in my free time, I am using the class as an opportunity to launch my learning experience in a time bound manner. Once I am off my feet I can dig deeper into the more nuanced React Native issues.
-
-<h3>Goals</h3>
-
-Simplest - Create an application that simply reads data from a server using polling/sockets. Display this data at the time interval as a notification. Keep track of notifications that are addressed by the user and the ones missed/ignored. Allow user to enter a free form voice input and record that back into the server.
-
-Stretch - Added context aware logging to the application to record the vital stats of the user's device. Repurpose the app to be a qualitative logging tool.
-
-<h3>Materials</h3>
-
-Will be predominantly using React Native documentation and tutorials by Facebook. Stackoverflow as needed. The device being used is a OnePlus 3 Android phone.
-
- 
-
-<h1>Project 2</h1>
-
-<h3>Topic - Learn Modern Front End Development</h3>
-
-I used to work with front-ends before, but have lost touch of the current JS landscape. In this project I will use VueJS and front-end toolchains like NPM, Babel, SASS, Imports what not ... 
-
-This exercise consists of a structured and unstructured portion. These are explained in goals.
-
-<h3>Goals</h3>
-
-Simplest - Cover the book "You don't know Javascript" [1], Be able to identify fundamental differences between ES6 and ES5 - speak intelligently about it. Understand the VueJs boilerplate toolchain - be able to point out all of its moving parts. Do the VueJs tutorial all the way through. [2] 
-
-Stretch - Cover the bleeding edge of JS using [3] as guiding tool. The objective will be to write an intelligent Medium article critiquing one of these new tool OR possibly sending a Pull Request fixing a bug in one of these projects.
-
-<h3>Materials</h3>
-
-[1] https://github.com/getify/You-Dont-Know-JS (Links to an external site.)
 <br/>
-[2] https://vuejs.org/v2/guide/ (Links to an external site.)
+<img src="images/screens.jpg"></img>
 <br/>
-[3] https://stateofjs.com/ (Links to an external site.)
 
- 
+And the very high level component diagra - from a software engineering angle. Trying to keep thing extremely simple.
 
-<h1>Project 3</h1>
+<br/>
+<img src="images/software-diagram.jpg"></img>
+<br/>
 
-<h3>Topic - Interactive Art Installation</h3>
+There were some hiccups in the initial installation, some missing packages - the watchman issue - a package that has to be installed via. brew because npm has a version that React Native does not play well with. I am keeping my lazer focus on working to learn React Native and I resolve issues with setup etc. without much thought to the 'whys' of what I am doing :(
 
-I will explore artistic applications of sensors to create fun interactions. The project will involve a physical controller/object that people can interact with and have fun. The project is where I will explore my creative side.
-
-<h3>Goals</h3>
-
-Simple - The idea at the moment is - To create a gaming controller that is a bed of pressure sensors. The user sits on this controller and controls a gaming character by shifting their weight side-to-side. The objective is to recreate the experience of motorcycle riding where you control a the motorbike with you weight as much as with the handlebars. The game used will be an online racing game that runs in a browser or natively. Drivers for this controller will convert pressure measurements into left right up or down signals/keystrokes.
-
-Stretch - Product-ify this idea and share it on hacker news, polish the product and include its story in my portfolio. Make it worthy of being showcased at the ischool capstone evening as a fun installation.
-
-<h3>Materials</h3>
-
-There is no source for this. I will use https://www.instructables.com (Links to an external site.) but otherwise the materials will be various and mostly DIY-er literature.
