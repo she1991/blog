@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learning react native - baby steps"
-date:   2016-09-18 23:34:56 +0530
+date:   2017-09-18 23:34:56 +0530
 ---
 
 <h1> React Native Setup Is Simple </h1>
